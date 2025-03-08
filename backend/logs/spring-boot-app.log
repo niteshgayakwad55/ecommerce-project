@@ -1,0 +1,558 @@
+2025-03-06 05:54:30.810  INFO 1187 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1187 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 05:54:30.818  INFO 1187 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 05:54:32.071  INFO 1187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 05:54:32.087  INFO 1187 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 05:54:32.088  INFO 1187 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 05:54:32.166  INFO 1187 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 05:54:32.167  INFO 1187 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2025-03-06 05:54:32.581 DEBUG 1187 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 05:54:32.657 DEBUG 1187 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 05:54:32.677 DEBUG 1187 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 05:54:32.684 DEBUG 1187 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 05:54:32.760  INFO 1187 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 05:54:32.772  INFO 1187 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 2.53 seconds (JVM running for 3.068)
+2025-03-06 05:54:39.285  INFO 1187 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 05:54:39.286  INFO 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 05:54:39.287 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 05:54:39.287 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 05:54:39.287 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 05:54:39.288 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@1808a453
+2025-03-06 05:54:39.288 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@692c7c93
+2025-03-06 05:54:39.289 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 05:54:39.289  INFO 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-06 05:54:39.295 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-03-06 05:54:39.301 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 05:54:39.302 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 05:54:39.303 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 05:54:39.308 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 05:54:39.309 DEBUG 1187 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 05:54:39.325 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 05:54:39.330 DEBUG 1187 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 05:54:40.006 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-03-06 05:54:40.007 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 05:54:40.008 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 05:54:40.009 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 05:54:40.009 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 05:54:40.010 DEBUG 1187 --- [http-nio-9999-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-06 05:54:40.024 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 05:54:40.026 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Mar 06 05:54:40 UTC 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-03-06 05:54:40.080 DEBUG 1187 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 05:54:50.992 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/app/products", parameters={}
+2025-03-06 05:54:50.995 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 05:54:50.996 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 05:54:50.996 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 05:54:50.997 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 05:54:50.998 DEBUG 1187 --- [http-nio-9999-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 05:54:50.999 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 05:54:51.000 DEBUG 1187 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 08:44:22.890  INFO 1259 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1259 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 08:44:22.893  INFO 1259 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 08:44:24.115  INFO 1259 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 08:44:24.133  INFO 1259 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 08:44:24.133  INFO 1259 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 08:44:24.206  INFO 1259 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 08:44:24.207  INFO 1259 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2025-03-06 08:44:24.618 DEBUG 1259 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 08:44:24.706 DEBUG 1259 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 08:44:24.726 DEBUG 1259 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 08:44:24.735 DEBUG 1259 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 08:44:24.810  INFO 1259 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 08:44:24.829  INFO 1259 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 2.513 seconds (JVM running for 3.034)
+2025-03-06 08:44:50.063  INFO 1259 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 08:44:50.063  INFO 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 08:44:50.064 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 08:44:50.064 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 08:44:50.065 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 08:44:50.066 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2413e0bd
+2025-03-06 08:44:50.066 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c9b81e9
+2025-03-06 08:44:50.066 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 08:44:50.066  INFO 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-06 08:44:50.077 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2025-03-06 08:44:50.083 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 08:44:50.084 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 08:44:50.085 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 08:44:50.090 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 08:44:50.092 DEBUG 1259 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 08:44:50.107 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 08:44:50.112 DEBUG 1259 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 08:44:50.546 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-03-06 08:44:50.548 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 08:44:50.549 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 08:44:50.550 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 08:44:50.551 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 08:44:50.551 DEBUG 1259 --- [http-nio-9999-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-06 08:44:50.567 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 08:44:50.569 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Mar 06 08:44:50 UTC 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-03-06 08:44:50.624 DEBUG 1259 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 08:44:58.407 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/app/products", parameters={}
+2025-03-06 08:44:58.409 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 08:44:58.410 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 08:44:58.410 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 08:44:58.411 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 08:44:58.411 DEBUG 1259 --- [http-nio-9999-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 08:44:58.412 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 08:44:58.413 DEBUG 1259 --- [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 08:47:47.389  INFO 1340 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1340 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 08:47:47.391  INFO 1340 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 08:47:48.320  INFO 1340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 08:47:48.331  INFO 1340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 08:47:48.333  INFO 1340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 08:47:48.383  INFO 1340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 08:47:48.384  INFO 1340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2025-03-06 08:47:48.733 DEBUG 1340 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 08:47:48.800 DEBUG 1340 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 08:47:48.821 DEBUG 1340 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 08:47:48.828 DEBUG 1340 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 08:47:48.879  INFO 1340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 08:47:48.896  INFO 1340 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 1.948 seconds (JVM running for 2.346)
+2025-03-06 08:47:54.551  INFO 1340 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 08:47:54.552  INFO 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 08:47:54.553 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 08:47:54.553 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 08:47:54.553 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 08:47:54.553 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23c07577
+2025-03-06 08:47:54.555 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@67afac8e
+2025-03-06 08:47:54.556 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 08:47:54.556  INFO 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-03-06 08:47:54.565 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/app/products", parameters={}
+2025-03-06 08:47:54.570 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 08:47:54.572 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 08:47:54.573 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 08:47:54.577 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 08:47:54.580 DEBUG 1340 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 08:47:54.596 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 08:47:54.602 DEBUG 1340 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 09:56:13.106  INFO 1217 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1217 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 09:56:13.111  INFO 1217 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 09:56:14.338  INFO 1217 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 09:56:14.358  INFO 1217 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 09:56:14.359  INFO 1217 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 09:56:14.436  INFO 1217 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 09:56:14.436  INFO 1217 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1262 ms
+2025-03-06 09:56:14.836 DEBUG 1217 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 09:56:14.917 DEBUG 1217 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 09:56:14.938 DEBUG 1217 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 09:56:14.948 DEBUG 1217 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 09:56:15.023  INFO 1217 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 09:56:15.044  INFO 1217 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 2.523 seconds (JVM running for 3.044)
+2025-03-06 09:59:56.734  INFO 1217 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 09:59:56.734  INFO 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 09:59:56.734 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 09:59:56.734 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 09:59:56.734 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 09:59:56.735 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@38e034d7
+2025-03-06 09:59:56.735 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@557514b0
+2025-03-06 09:59:56.736 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 09:59:56.736  INFO 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-03-06 09:59:56.743 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/app/products", parameters={}
+2025-03-06 09:59:56.748 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 09:59:56.750 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 09:59:56.751 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 09:59:56.754 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 09:59:56.757 DEBUG 1217 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 09:59:56.773 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 09:59:56.777 DEBUG 1217 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 09:59:57.332 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-03-06 09:59:57.334 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 09:59:57.335 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 09:59:57.335 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 09:59:57.335 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 09:59:57.336 DEBUG 1217 --- [http-nio-9999-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-06 09:59:57.353 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 09:59:57.354 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Mar 06 09:59:57 UTC 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-03-06 09:59:57.406 DEBUG 1217 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 10:03:43.406  INFO 1323 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1323 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 10:03:43.409  INFO 1323 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 10:03:44.340  INFO 1323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 10:03:44.351  INFO 1323 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 10:03:44.352  INFO 1323 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 10:03:44.404  INFO 1323 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 10:03:44.404  INFO 1323 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 939 ms
+2025-03-06 10:03:44.757 DEBUG 1323 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 10:03:44.820 DEBUG 1323 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 10:03:44.842 DEBUG 1323 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 10:03:44.849 DEBUG 1323 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 10:03:44.900  INFO 1323 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 10:03:44.918  INFO 1323 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 1.949 seconds (JVM running for 2.349)
+2025-03-06 10:03:48.919  INFO 1323 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 10:03:48.920  INFO 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 10:03:48.921 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 10:03:48.921 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 10:03:48.921 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 10:03:48.922 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@23c07577
+2025-03-06 10:03:48.922 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@67afac8e
+2025-03-06 10:03:48.922 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 10:03:48.924  INFO 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-03-06 10:03:48.932 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/products", parameters={}
+2025-03-06 10:03:48.935 DEBUG 1323 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mycompany.app.ProductController#getProducts()
+2025-03-06 10:03:48.955 DEBUG 1323 --- [http-nio-9999-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 10:03:48.956 DEBUG 1323 --- [http-nio-9999-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.mycompany.app.Product@26caf173, com.mycompany.app.Product@1c36efb1]]
+2025-03-06 10:03:48.979 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+2025-03-06 10:03:48.983 ERROR 1323 --- [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-03-06 10:03:48.989 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 10:03:48.990 DEBUG 1323 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 10:03:48.999 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 10:03:49.002 DEBUG 1323 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2025-03-06 11:22:02.125  INFO 1060 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1060 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 11:22:02.130  INFO 1060 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 11:22:03.414  INFO 1060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 11:22:03.432  INFO 1060 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 11:22:03.433  INFO 1060 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 11:22:03.515  INFO 1060 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 11:22:03.515  INFO 1060 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1318 ms
+2025-03-06 11:22:04.005 DEBUG 1060 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 11:22:04.090 DEBUG 1060 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 11:22:04.112 DEBUG 1060 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 11:22:04.123 DEBUG 1060 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 11:22:04.202  INFO 1060 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 11:22:04.223  INFO 1060 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 2.741 seconds (JVM running for 3.325)
+2025-03-06 11:22:39.261  INFO 1060 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 11:22:39.262  INFO 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 11:22:39.262 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 11:22:39.264 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 11:22:39.264 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 11:22:39.265 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2413e0bd
+2025-03-06 11:22:39.265 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6c9b81e9
+2025-03-06 11:22:39.267 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 11:22:39.267  INFO 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2025-03-06 11:22:39.273 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/app/produts", parameters={}
+2025-03-06 11:22:39.279 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 11:22:39.282 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 11:22:39.282 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 11:22:39.286 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 11:22:39.288 DEBUG 1060 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 11:22:39.304 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 11:22:39.310 DEBUG 1060 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 11:22:39.762 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2025-03-06 11:22:39.764 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [Classpath [META-INF/resources/], Classpath [resources/], Classpath [static/], Classpath [public/], ServletContext [/]]
+2025-03-06 11:22:39.764 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2025-03-06 11:22:39.766 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2025-03-06 11:22:39.767 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 11:22:39.767 DEBUG 1060 --- [http-nio-9999-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2025-03-06 11:22:39.783 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/avif, image/webp, image/apng, image/svg+xml, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 11:22:39.784 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Thu Mar 06 11:22:39 UTC 2025, status=404, error=Not Found, path=/favicon.ico}]
+2025-03-06 11:22:39.836 DEBUG 1060 --- [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2025-03-06 11:24:05.200 DEBUG 1060 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/products", parameters={}
+2025-03-06 11:24:05.201 DEBUG 1060 --- [http-nio-9999-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mycompany.app.ProductController#getProducts()
+2025-03-06 11:24:05.208 DEBUG 1060 --- [http-nio-9999-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 11:24:05.209 DEBUG 1060 --- [http-nio-9999-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.mycompany.app.Product@203a1611, com.mycompany.app.Product@5a9189c1]]
+2025-03-06 11:24:05.215 DEBUG 1060 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+2025-03-06 11:24:05.219 ERROR 1060 --- [http-nio-9999-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-03-06 11:24:05.222 DEBUG 1060 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 11:24:05.223 DEBUG 1060 --- [http-nio-9999-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 11:24:05.226 DEBUG 1060 --- [http-nio-9999-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 11:24:05.227 DEBUG 1060 --- [http-nio-9999-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2025-03-06 11:25:42.705  INFO 1137 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1137 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 11:25:42.707  INFO 1137 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 11:25:43.624  INFO 1137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 11:25:43.636  INFO 1137 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 11:25:43.636  INFO 1137 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 11:25:43.686  INFO 1137 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 11:25:43.686  INFO 1137 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 927 ms
+2025-03-06 11:25:44.036 DEBUG 1137 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 11:25:44.102 DEBUG 1137 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 11:25:44.123 DEBUG 1137 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 11:25:44.131 DEBUG 1137 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 11:25:44.185  INFO 1137 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2025-03-06 11:25:44.204  INFO 1137 --- [main] com.mycompany.app.EcommerceApplication   : Started EcommerceApplication in 1.94 seconds (JVM running for 2.344)
+2025-03-06 11:26:24.223  INFO 1211 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1211 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 11:26:24.225  INFO 1211 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 11:26:25.137  INFO 1211 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 11:26:25.146  INFO 1211 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 11:26:25.147  INFO 1211 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 11:26:25.201  INFO 1211 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 11:26:25.202  INFO 1211 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 910 ms
+2025-03-06 11:26:25.566 DEBUG 1211 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 11:26:25.642 DEBUG 1211 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 11:26:25.664 DEBUG 1211 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 11:26:25.673 DEBUG 1211 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 11:26:25.719  WARN 1211 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2025-03-06 11:26:25.723  INFO 1211 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-06 11:26:25.740  INFO 1211 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-06 11:26:25.759 ERROR 1211 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2025-03-06 11:27:31.747  INFO 1277 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1277 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 11:27:31.750  INFO 1277 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 11:27:32.650  INFO 1277 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 11:27:32.658  INFO 1277 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 11:27:32.661  INFO 1277 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 11:27:32.716  INFO 1277 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 11:27:32.716  INFO 1277 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 916 ms
+2025-03-06 11:27:33.068 DEBUG 1277 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 11:27:33.133 DEBUG 1277 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 11:27:33.153 DEBUG 1277 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 11:27:33.163 DEBUG 1277 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 11:27:33.209  WARN 1277 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2025-03-06 11:27:33.213  INFO 1277 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-06 11:27:33.228  INFO 1277 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-06 11:27:33.244 ERROR 1277 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2025-03-06 11:32:03.490  INFO 1753 --- [main] com.mycompany.app.EcommerceApplication   : Starting EcommerceApplication using Java 17.0.14 on ip-172-31-93-142 with PID 1753 (/home/ubuntu/ecommerce-project/backend/target/classes started by ubuntu in /home/ubuntu/ecommerce-project/backend)
+2025-03-06 11:32:03.493  INFO 1753 --- [main] com.mycompany.app.EcommerceApplication   : No active profile set, falling back to default profiles: default
+2025-03-06 11:32:04.408  INFO 1753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2025-03-06 11:32:04.417  INFO 1753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-06 11:32:04.418  INFO 1753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.52]
+2025-03-06 11:32:04.475  INFO 1753 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-06 11:32:04.476  INFO 1753 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 931 ms
+2025-03-06 11:32:04.851 DEBUG 1753 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-03-06 11:32:04.923 DEBUG 1753 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 3 mappings in 'requestMappingHandlerMapping'
+2025-03-06 11:32:04.945 DEBUG 1753 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-03-06 11:32:04.956 DEBUG 1753 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-03-06 11:32:04.999  WARN 1753 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 9999 is already in use
+2025-03-06 11:32:05.002  INFO 1753 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-03-06 11:32:05.020  INFO 1753 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2025-03-06 11:32:05.041 ERROR 1753 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 9999 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 9999 or configure this application to listen on another port.
+
+2025-03-06 11:33:06.427  INFO 1137 --- [http-nio-9999-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-06 11:33:06.427  INFO 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-06 11:33:06.427 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2025-03-06 11:33:06.428 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2025-03-06 11:33:06.428 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2025-03-06 11:33:06.429 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@35bd5c08
+2025-03-06 11:33:06.431 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@5b30a6a1
+2025-03-06 11:33:06.431 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-03-06 11:33:06.431  INFO 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-03-06 11:33:06.442 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/products", parameters={}
+2025-03-06 11:33:06.444 DEBUG 1137 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.mycompany.app.ProductController#getProducts()
+2025-03-06 11:33:06.465 DEBUG 1137 --- [http-nio-9999-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/avif, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.7, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2025-03-06 11:33:06.466 DEBUG 1137 --- [http-nio-9999-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [[com.mycompany.app.Product@1c856413, com.mycompany.app.Product@4d9b987c]]
+2025-03-06 11:33:06.489 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Failed to complete request: org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+2025-03-06 11:33:06.492 ERROR 1137 --- [http-nio-9999-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.springframework.http.converter.HttpMessageConversionException: Type definition error: [simple type, class com.mycompany.app.Product]; nested exception is com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])] with root cause
+
+com.fasterxml.jackson.databind.exc.InvalidDefinitionException: No serializer found for class com.mycompany.app.Product and no properties discovered to create BeanSerializer (to avoid exception, disable SerializationFeature.FAIL_ON_EMPTY_BEANS) (through reference chain: java.util.ImmutableCollections$List12[0])
+	at com.fasterxml.jackson.databind.exc.InvalidDefinitionException.from(InvalidDefinitionException.java:77) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.SerializerProvider.reportBadDefinition(SerializerProvider.java:1276) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.DatabindContext.reportBadDefinition(DatabindContext.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.failForEmpty(UnknownSerializer.java:71) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.impl.UnknownSerializer.serialize(UnknownSerializer.java:33) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serializeContents(CollectionSerializer.java:145) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:107) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.std.CollectionSerializer.serialize(CollectionSerializer.java:25) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:400) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter$Prefetch.serialize(ObjectWriter.java:1510) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at com.fasterxml.jackson.databind.ObjectWriter.writeValue(ObjectWriter.java:1006) ~[jackson-databind-2.12.4.jar:2.12.4]
+	at org.springframework.http.converter.json.AbstractJackson2HttpMessageConverter.writeInternal(AbstractJackson2HttpMessageConverter.java:454) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.http.converter.AbstractGenericHttpMessageConverter.write(AbstractGenericHttpMessageConverter.java:104) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.AbstractMessageConverterMethodProcessor.writeWithMessageConverters(AbstractMessageConverterMethodProcessor.java:290) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor.handleReturnValue(RequestResponseBodyMethodProcessor.java:183) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.method.support.HandlerMethodReturnValueHandlerComposite.handleReturnValue(HandlerMethodReturnValueHandlerComposite.java:78) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:124) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1064) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.9.jar:5.3.9]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.52.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.9.jar:5.3.9]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1726) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.52.jar:9.0.52]
+	at java.base/java.lang.Thread.run(Thread.java:840) ~[na:na]
+
+2025-03-06 11:33:06.497 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2025-03-06 11:33:06.498 DEBUG 1137 --- [http-nio-9999-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2025-03-06 11:33:06.508 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2025-03-06 11:33:06.518 DEBUG 1137 --- [http-nio-9999-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
